@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Tab1">
+
+    <TextView
+        android:id="@+id/tv_Title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Welcome to FPCOC EM!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_Title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="Pastoral Staff"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Joseph Suk"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="(714) 423-4456"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="Servant Leaders"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcoming Team"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:text="David Lee"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fellowship Team"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="Debbie Park"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Administration Team"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="James Ko"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="James Sin"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Publications Team"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="Javier Lee"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Worship Team"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="Michelle Moon"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tv_Website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visit us at theFPCOC.com"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
